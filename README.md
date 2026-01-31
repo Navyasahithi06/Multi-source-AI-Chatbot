@@ -1,5 +1,5 @@
 # Multi-source-AI-Chatbot
-1) Project Problem Statement
+## 1) Project Problem Statement
 
 People use different tools for different tasks like:
 
@@ -14,7 +14,7 @@ extracting summaries from PDFs,
 …which wastes time switching apps and learning multiple interfaces.
 
 Goal: Build one simple chatbot app where a user can do all these tasks from a single UI.
-2) Solution Approach
+## 2) Solution Approach
 
 We build a Streamlit web app that acts as the front-end interface.
 Behind the scenes, a utils.py module handles all AI functions:
@@ -28,7 +28,7 @@ YouTube summarization → transcript → summarize with LLM
 PDF summarization → extract text → summarize with LLM
 
 This modular approach makes the code easy to maintain and upgrade.
-3) Project Features
+## 3) Project Features
 
 ✅ Text Chat with AI (multi-turn conversation)
 ✅ Image Generation from Prompt
@@ -37,7 +37,7 @@ This modular approach makes the code easy to maintain and upgrade.
 ✅ Clean UI with tabs/sections
 ✅ Environment variables for API keys (safe and professional)
 ✅ Error handling (no transcript, invalid links, empty PDF, etc.)
-5) File Descriptions
+## 5) File Descriptions
 app.py
 
 Main Streamlit application
@@ -75,7 +75,7 @@ HF_API_KEY=
 README.md
 
 Project explanation (this content).
-6) Steps to Run the Project
+## 6) Steps to Run the Project
 Step 1: Open project folder
 cd multi_purpose_ai_chatbot
 Step 2: Create & activate virtual environment
