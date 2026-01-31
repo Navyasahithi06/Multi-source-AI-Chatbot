@@ -37,6 +37,41 @@ This modular approach makes the code easy to maintain and upgrade.
 ✅ Clean UI with tabs/sections
 ✅ Environment variables for API keys (safe and professional)
 ✅ Error handling (no transcript, invalid links, empty PDF, etc.)
+## 4) Folder structure
+MULTI SOURCE AI CHATBOT
+│
+├── .venv/                      # Virtual environment
+│
+├── chatbot/
+│   └── Chatbot/
+│       │
+│       ├── __pycache__/         # Python cache files
+│       │
+│       ├── fonts/              # Custom fonts
+│       │   └── DejaVuSans.ttf
+│       │
+│       ├── generated_images/   # AI generated images folder
+│       │   └── image.png
+│       │
+│       ├── outputs/             # Output files (summaries, logs, etc.)
+│       │
+│       ├── .env                 # Environment variables (API keys)
+│       │
+│       ├── app.py               # Main Streamlit application
+│       │
+│       ├── auth.py              # Authentication logic (login/signup)
+│       │
+│       ├── users.py             # User management (DB operations)
+│       │
+│       ├── utils.py             # Core AI utilities (chat, summarize, image)
+│       │
+│       ├── database.db          # SQLite database (users + chat history)
+│       │
+│       └── generated_image.png  # Sample/generated image
+│
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+
 ## 5) File Descriptions
 app.py
 
